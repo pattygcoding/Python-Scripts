@@ -3,7 +3,21 @@
 ## Table of Contents
 - [Compare Diff](#compare-diff)
 - [Count Files](#count-files)
+- [Count Words](#count-words)
+- [Generate QR Code](#generate-qr-code)
+- [Get Links](#get-links)
+- [Get System Info](#get-system-info)
+- [Get Weather](#get-weather)
+- [Instant GUI](#instant-gui)
+- [JSON to CSV](#json-to-csv)
+- [Merge PDFs](#merge-pdfs)
+- [Organize Directory](#organize-directory)
+- [Print Directory Tree](#print-directory-tree)
+- [Random Password](#random-password)
+- [Resize Image](#resize-image)
 - [Search Match](#search-match)
+- [Send Email](#send-email)
+- [Shorten URL](#shorten-url)
 - [Update Git](#update-git)
 
 ## Compare Diff
