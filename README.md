@@ -5,6 +5,7 @@
 - [Count Files](#count-files)
 - [Count Words](#count-words)
 - [Generate QR Code](#generate-qr-code)
+- [Get Directory Size](#get-directory-size)
 - [Get Links](#get-links)
 - [Get System Info](#get-system-info)
 - [Get Weather](#get-weather)
@@ -58,6 +59,14 @@ This script generates a QR code for a link.
 ### Example Usage
 ```
 python generate_qr_code.py
+```
+
+## Get Directory Size
+This script returns the byte size of your directory.
+
+### Example Usage
+```
+python get_directory_size.py
 ```
 
 ## Get Links
