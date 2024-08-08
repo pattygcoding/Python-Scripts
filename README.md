@@ -3,6 +3,8 @@
 ## Table of Contents
 - [Compare Diff](#compare-diff)
 - [Count Files](#count-files)
+- [Search Match](#search-match)
+- [Update Git](#update-git)
 
 ## Compare Diff
 This script compares two files line by line and highlights the differences. It also has an optional feature to ignore timestamps during the comparison.
@@ -42,4 +44,15 @@ This script searches for patterns in files within the current directory and its 
 ### Example Usage
 ```
 python search_match.py .cs Term1 Term2
+```
+
+## Update Git
+This script updates the current Git branch by fetching the latest changes and merging them from a specified branch (default is `master`).
+
+### Arguments
+- `-branch`: The branch to merge into the current branch. If not specified, `master` is used.
+
+### Example Usage
+```
+python update_git.py -branch develop
 ```
