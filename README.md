@@ -1,7 +1,7 @@
 # Python Scripts by Patrick Goodwin
 
 ## Table of Contents
-- [Compare Diff](#comparediff)
+- [Compare Diff](#compare-diff)
 
 ## Compare Diff
 
