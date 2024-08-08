@@ -30,6 +30,102 @@ This script counts the number of files in the current directory and its subdirec
 python count_files.py
 ```
 
+## Count Words
+This script counts the number of words in a specified text file.
+
+### Example Usage
+```
+python count_words.py
+```
+
+## Generate QR Code
+This script generates a QR code for a link.
+
+### Example Usage
+```
+python generate_qr_code.py
+```
+
+## Get Links
+This script returns links inside of a URL.
+
+### Example Usage
+```
+python get_links.py
+```
+
+## Get System Info
+This script returns your computer's system information.
+
+### Example Usage
+```
+python get_system_info.py
+```
+
+## Get Weather
+This script returns the weather of a given city.
+
+### Example Usage
+```
+python get_weather.py
+```
+
+## Instant GUI
+This script generates an instant GUI.
+
+### Example Usage
+```
+python instant_gui.py
+```
+
+## JSON to CSV
+This script converts a JSON file to CSV.
+
+### Example Usage
+```
+python json_to_csv.py
+```
+
+## Merge PDFs
+This script merges the contents of multiple PDFs into one.
+
+### Example Usage
+```
+python merge_pdfs.py
+```
+
+## Organize Directory
+This script organizees yoyr directory by file extension.
+
+### Example Usage
+```
+python organize_directory.py
+```
+
+## Print Directory Tree
+This script prints your current directory tree on the terminal.
+
+### Example Usage
+```
+python print_directory_tree.py
+```
+
+## Random Password
+This script generates a random password.
+
+### Example Usage
+```
+python random_password.py
+```
+
+## Resize Image
+This script resizes an image.
+
+### Example Usage
+```
+python resize_image.py
+```
+
 ## Search Match
 This script searches for patterns in files within the current directory and its subdirectories. It supports various options, including uncapped results, cross-term search, full directory display, and filtering based on function call patterns.
 
@@ -44,6 +140,22 @@ This script searches for patterns in files within the current directory and its 
 ### Example Usage
 ```
 python search_match.py .cs Term1 Term2
+```
+
+## Send Email
+This script sends an email from python.
+
+### Example Usage
+```
+python send_email.py
+```
+
+## Shorten URL
+This script shortens a URL.
+
+### Example Usage
+```
+python shorten_url.py
 ```
 
 ## Update Git
