@@ -4,7 +4,7 @@ import subprocess
 import os
 import win32com.client
 
-EXTENSIONS = ['.cs', '.dart', '.vue', '.php', '.ts', '.js', ".py", '.html', '.css', '.json', '.xml']
+EXTENSIONS = ['.cs', '.c', '.java', '.dart', '.vue', '.php', '.ts', '.js', ".py", '.html', '.css', '.json', '.xml', '.cpp']
 DEFAULT_EXTENSION = EXTENSIONS[0]
 
 IGNORE_DIRS = ['node_modules', '.git', 'build', 'dist', 'vendor', '__pycache__']
