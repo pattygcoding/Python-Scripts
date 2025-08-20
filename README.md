@@ -1,6 +1,7 @@
 # Python Scripts by Patrick Goodwin
 
 ## Table of Contents
+- [Backend File Explorer](#backend-file-explorer)
 - [Compare Diff](#compare-diff)
 - [Count Files](#count-files)
 - [Count Words](#count-words)
@@ -15,11 +16,31 @@
 - [Organize Directory](#organize-directory)
 - [Print Directory Tree](#print-directory-tree)
 - [Random Password](#random-password)
+- [Read Pics](#read-pics)
 - [Resize Image](#resize-image)
 - [Search Match](#search-match)
 - [Send Email](#send-email)
 - [Shorten URL](#shorten-url)
 - [Update Git](#update-git)
+- [Venn Diagram](#venn-diagram)
+
+## Backend File Explorer
+This script provides a GUI-based file explorer for opening files in different editors. It supports multiple file extensions and can open files in Visual Studio, VS Code, or Android Studio.
+
+### Dependencies
+- `tkinter`: Built-in Python GUI library
+- `win32com.client`: For Visual Studio integration
+
+### Features
+- Supports multiple file extensions (.cs, .c, .java, .dart, .vue, .php, .ts, .js, .py, .html, .css, .json, .xml, .cpp)
+- Search and autocomplete functionality
+- Integration with Visual Studio, VS Code, and Android Studio
+- Ignores common directories like node_modules, .git, build, dist, vendor, __pycache__
+
+### Example Usage
+```python
+python backend_file_explorer.py
+```
 
 ## Compare Diff
 This script compares two files line by line and highlights the differences. It also has an optional feature to ignore timestamps during the comparison.
@@ -141,6 +162,21 @@ This script generates a random password.
 python random_password.py
 ```
 
+## Read Pics
+This script reads text from PNG images using Optical Character Recognition (OCR). It processes all PNG files in a 'PicturesToRead' folder and extracts text content from them.
+
+### Dependencies
+- `easyocr`: OCR library for text recognition
+
+### Requirements
+- A folder named 'PicturesToRead' containing PNG images
+- Install easyocr: `pip install easyocr`
+
+### Example Usage
+```python
+python read_pics.py
+```
+
 ## Resize Image
 This script resizes an image.
 
@@ -190,4 +226,25 @@ This script updates the current Git branch by fetching the latest changes and me
 ### Example Usage
 ```
 python update_git.py -branch develop
+```
+
+## Venn Diagram
+This script creates a visual Venn diagram showing the relationship between two sets. It displays items that are unique to each set as well as items that are shared between them.
+
+### Dependencies
+- `matplotlib`: Plotting library
+- `matplotlib_venn`: Venn diagram extension for matplotlib
+
+### Requirements
+- Install dependencies: `pip install matplotlib matplotlib-venn`
+
+### Features
+- Creates a two-set Venn diagram
+- Customizable set labels and content
+- Visual representation of set relationships
+- Shows unique and shared items
+
+### Example Usage
+```python
+python venn-diagram.py
 ```
